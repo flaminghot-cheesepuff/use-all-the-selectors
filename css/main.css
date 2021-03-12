@@ -22,20 +22,20 @@ footer {
   background-color: #eee8d5;
 }
 
-.contents {
-  background-color: #93a1a1;
+#contents {
+  color: #93a1a1;
 }
 
-.favs {
-  background-color: #93a1a1;
+#favs {
+  color: #93a1a1;
 }
 
-.facts {
-  background-color: #93a1a1;
+#facts {
+  color: #93a1a1;
 }
 
-.types {
-  background-color: #93a1a1;
+#types {
+  color: #93a1a1;
 }
 
 .wrapper > .dfn {
@@ -48,4 +48,28 @@ p + strong {
 
 a:not(.no-highlight) {
   background-color: #719e07;
+}
+
+[rel="external"] {
+  background-color: #2694d8;
+}
+
+ol > li:first-of-type {
+  color: #719e47;
+}
+
+ol > li:last-of-type {
+  color: #2aa198;
+}
+
+.types > li:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+.types > li:nth-child(even) {
+  background-color: #586e75;
+}
+
+.types > li:nth-child(3n) {
+  background-color: #d04b16;
 }
